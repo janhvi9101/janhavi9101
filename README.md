@@ -21,10 +21,10 @@
 ## 🛠 Skills & Tools  
 
 ### 🔹 Programming Languages  
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)  
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)  
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)  
+  
 
 ### 🔹 Web Technologies  
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
@@ -34,7 +34,6 @@
 
 ### 🔹 Other Interests  
 - Cloud Computing ☁️  
-- AI & Machine Learning 🤖  
 - Web Development 🌐  
 
 ---
@@ -46,16 +45,36 @@
 
 ---
 
+## 💼 Projects  
+Here are some of my GitHub projects:  
+
+<p align="center">
+  <a href="https://github.com/janhavi9101/Project1" target="_blank">
+    <img src="https://img.shields.io/badge/Project1-Python-blue?style=for-the-badge" alt="Project1" />
+  </a>
+  <a href="https://github.com/janhavi9101/Project2" target="_blank">
+    <img src="https://img.shields.io/badge/Project2-Flask-orange?style=for-the-badge" alt="Project2" />
+  </a>
+  <a href="https://github.com/janhavi9101/Project3" target="_blank">
+    <img src="https://img.shields.io/badge/Project3-JavaScript-yellow?style=for-the-badge" alt="Project3" />
+  </a>
+</p>
+
+*Replace `Project1`, `Project2`, `Project3` with your actual repository names and URLs.*  
+
+---
+
 ## 📊 GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=makarandjadhav1&show_icons=true&theme=radical" alt="Janhavi's GitHub stats" height="160"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=makarandjadhav1&theme=radical" alt="GitHub Streak" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=janhavi9101&show_icons=true&hide=issues&count_private=true&theme=radical" alt="Janhavi's GitHub stats" height="160"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=janhavi9101&theme=radical" alt="GitHub Streak" height="160"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=makarandjadhav1&layout=compact&theme=radical" alt="Top Languages" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=janhavi9101&layout=compact&hide=html,css&theme=radical" alt="Top Languages" height="160"/>
 </p>
+
 
 ---
 
@@ -68,7 +87,7 @@
   <a href="mailto:janhavi@example.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://github.com/makarandjadhav1" target="_blank">
+  <a href="https://github.com/janhavi9101" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000.svg?&style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
@@ -77,7 +96,4 @@
 
 ⭐ “Code. Cloud. Create. Keep learning.” ⭐
 
-
-### 🌱 Fun Fact
-I love **learning new technologies**, experimenting with **web projects**, and **solving AI challenges**. Always on a journey to grow and make an impact!  
 
