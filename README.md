@@ -80,7 +80,7 @@ Here are some of my GitHub projects:
 
 ---
 
-## 🤝 Let's Connect!  
+## 🌐 Connect with me: 
 
 <p align="center">
   <a href="https://www.linkedin.com/in/janhavi-palmate-07233a287" target="_blank">
