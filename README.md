@@ -85,7 +85,7 @@ Here are some of my GitHub projects:
   <a href="https://www.linkedin.com/in/janhavi-palmate-07233a287" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="mailto:janhavi@example.com" target="_blank">
+  <a href="mailto:palmatejanhavi@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://github.com/janhavi9101" target="_blank">
