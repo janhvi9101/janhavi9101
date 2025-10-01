@@ -1,31 +1,47 @@
-name: Update README with Quote
+name: Update README with Dev Quote
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight UTC
-  workflow_dispatch: # Allows manual run
+    - cron: '0 0 * * *' # Daily at midnight UTC
+  workflow_dispatch: # Manual trigger
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+      # 1️⃣ Checkout repository
+      - uses: actions/checkout@v3
 
-    - name: Fetch Random Quote
-      id: quote
-      run: |
-        QUOTE=$(curl -s https://api.quotable.io/random | jq -r '.content + " — " + .author')
-        echo "QUOTE=$QUOTE" >> $GITHUB_ENV
+      # 2️⃣ Install jq (for JSON parsing)
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
 
-    - name: Update README
-      run: |
-        sed -i "/<!--QUOTE_START-->/, /<!--QUOTE_END-->/c\<!--QUOTE_START-->\n✍️ Dev Quote of the Day: \"$QUOTE\"\n<!--QUOTE_END-->" README.md
+      # 3️⃣ Fetch a random quote
+      - name: Fetch Random Quote
+        id: fetch_quote
+        run: |
+          QUOTE=$(curl -s https://api.quotable.io/random | jq -r '.content + " — " + .author')
+          echo "QUOTE=$QUOTE" >> $GITHUB_ENV
+          echo "Fetched quote: $QUOTE"
 
-    - name: Commit changes
-      run: |
-        git config --local user.name "github-actions[bot]"
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git add README.md
-        git commit -m "Update Dev Quote of the Day" || echo "No changes to commit"
-        git push
+      # 4️⃣ Replace placeholder in README
+      - name: Update README
+        run: |
+          README=README.md
+          if grep -q "<!--QUOTE_START-->" "$README"; then
+            sed -i "/<!--QUOTE_START-->/, /<!--QUOTE_END-->/c\<!--QUOTE_START-->\n✍️ Dev Quote of the Day: \"$QUOTE\"\n<!--QUOTE_END-->" "$README"
+            echo "README updated with new quote"
+          else
+            echo "Placeholder not found in README!"
+            exit 1
+          fi
+
+      # 5️⃣ Commit and push changes
+      - name: Commit and Push
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update Dev Quote of the Day" || echo "No changes to commit"
+          git push
