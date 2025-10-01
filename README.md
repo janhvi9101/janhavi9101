@@ -60,7 +60,7 @@ Here are some of my GitHub projects:
   </a>
 </p>
 
-*Replace `Project1`, `Project2`, `Project3` with your actual repository names and URLs.*  
+ 
 
 ---
 
