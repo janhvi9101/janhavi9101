@@ -34,13 +34,14 @@
 
 ### 🔹 Other Interests  
 - Cloud Computing ☁️  
-- Web Development 🌐  
+- Web Development 🌐
+- AI & Intelligent Systems 🤖
 
 ---
 
 ## 📌 Current Focus  
 - 📖 Learning *Advanced Cloud Services* and *Serverless Architectures*  
-- 🎨 Improving Web UI/UX and front-end prototyping skills  
+- 🧩 Solving problems with code and algorithms
 - 🔨 Working on academic and personal projects combining *Cloud + AI + Web*  
 
 ---
