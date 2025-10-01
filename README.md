@@ -95,6 +95,6 @@ Here are some of my GitHub projects:
 
 ---
 
-⭐ “Code. Cloud. Create. Keep learning.” ⭐
+⭐ “☁️ Imagine. 💻 Build. 🌿 Grow. 🚀 Achieve.” ⭐
 
 
