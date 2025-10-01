@@ -38,11 +38,6 @@
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
  
 
-### 🔹 Other Interests  
-- Cloud Computing ☁️  
-- Web Development 🌐
-- AI & Intelligent Systems 🤖
-
 ---
 
 ## 📌 Current Focus  
@@ -92,11 +87,14 @@ Here are some of my GitHub projects:
   <a href="https://www.linkedin.com/in/janhavi-palmate-07233a287" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="mailto:palmatejanhavi@gmail.com" target="_blank">
+  <a href="mailto:janhavi@example.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://github.com/janhavi9101" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000.svg?&style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=oq5ud3y" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
 </p>
 
