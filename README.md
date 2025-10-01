@@ -45,18 +45,18 @@
 
 ---
 
-## 💼 Projects  
-Here are some of my GitHub projects:  
+## 💼 Projects
+Here are some of my GitHub projects:
 
 <p align="center">
   <a href="https://github.com/janhvi9101/-PathFinder-AI" target="_blank">
-    <img src="https://img.shields.io/badge/PathFinder-AI-Python-blue?style=for-the-badge" alt="PathFinder-AI" />
+    <img src="https://img.shields.io/badge/PathFinder--AI-Python-blue?style=for-the-badge" alt="PathFinder-AI" />
   </a>
   <a href="https://github.com/janhvi9101/Android-Retail-Store-Inventory-System" target="_blank">
-    <img src="https://img.shields.io/badge/Android-Retail-Store-Inventory-System-Java-green?style=for-the-badge" alt="Android Retail Store Inventory System" />
+    <img src="https://img.shields.io/badge/Android--Retail--Inventory-Java-green?style=for-the-badge" alt="Android Retail Store Inventory System" />
   </a>
   <a href="https://github.com/janhvi9101/Automated_AWS_ReceiptProcessingSystem" target="_blank">
-    <img src="https://img.shields.io/badge/AWS-ReceiptProcessingSystem-Python-orange?style=for-the-badge" alt="Automated AWS Receipt Processing System" />
+    <img src="https://img.shields.io/badge/AWS--ReceiptProcessing-Python-orange?style=for-the-badge" alt="Automated AWS Receipt Processing System" />
   </a>
 </p>
 
