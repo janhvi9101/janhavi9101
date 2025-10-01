@@ -67,12 +67,12 @@ Here are some of my GitHub projects:
 ## 📊 GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=janhavi9101&show_icons=true&hide=issues&count_private=true&theme=radical" alt="Janhavi's GitHub stats" height="160"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=janhavi9101&theme=radical" alt="GitHub Streak" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=janhvi9101&show_icons=true&theme=radical" alt="Janhavi's GitHub stats" height="160"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=janhvi9101&theme=radical" alt="GitHub Streak" height="160"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=janhavi9101&layout=compact&hide=html,css&theme=radical" alt="Top Languages" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=janhvi9101&layout=compact&theme=radical" alt="Top Languages" height="160"/>
 </p>
 
 
