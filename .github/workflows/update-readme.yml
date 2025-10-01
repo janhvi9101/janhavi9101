@@ -1,0 +1,31 @@
+name: Update README with Quote
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+  workflow_dispatch: # Allows manual run
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Fetch Random Quote
+      id: quote
+      run: |
+        QUOTE=$(curl -s https://api.quotable.io/random | jq -r '.content + " — " + .author')
+        echo "QUOTE=$QUOTE" >> $GITHUB_ENV
+
+    - name: Update README
+      run: |
+        sed -i "/<!--QUOTE_START-->/, /<!--QUOTE_END-->/c\<!--QUOTE_START-->\n✍️ Dev Quote of the Day: \"$QUOTE\"\n<!--QUOTE_END-->" README.md
+
+    - name: Commit changes
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git add README.md
+        git commit -m "Update Dev Quote of the Day" || echo "No changes to commit"
+        git push
