@@ -100,6 +100,11 @@ Here are some of my GitHub projects:
 
 ---
 
+<!--QUOTE_START-->
+✍️ Dev Quote of the Day: "Your daily quote will appear here!"
+<!--QUOTE_END-->
+
+
 ⭐ “☁️ Imagine. 💻 Build. 🌿 Grow. 🚀 Achieve.” ⭐
 
 
